@@ -45,7 +45,7 @@ end
 
 gem 'rb-readline'
 gem 'bootstrap-sass'
-
+gem 'bcrypt'
 
 
 
