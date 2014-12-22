@@ -43,6 +43,7 @@ group :production do
   gem 'thin'
 end
 
+gem 'rb-readline'
 
 
 
