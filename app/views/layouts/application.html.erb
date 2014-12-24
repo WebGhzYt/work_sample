@@ -6,11 +6,15 @@
                                            'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
+<<<<<<< HEAD
         <%= render 'layouts/shim' %>
+=======
+>>>>>>> 2b1df0c97c164e7be3fe0c418d10987097c03347
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
       </script>
     <![endif]-->
+<<<<<<< HEAD
   </head>
   <body>
    
@@ -24,5 +28,37 @@
       <%= render 'layouts/footer' %>
       <%= debug(params) if Rails.env.development? %>
     </div>
+=======
+    <%= render 'layouts/shim' %>
+  </head>
+  <body>
+  <%= render 'layouts/header' %>
+    
+    <div class="container">
+      
+    </div>
+    <div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  
+
+
+            <div class="container">
+      <%= yield %>
+        <%= render 'layouts/footer' %>
+
+    </div>
+    <%= link_to image_tag("rubylogo.jpg", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
+
+</div>
+>>>>>>> 2b1df0c97c164e7be3fe0c418d10987097c03347
   </body>
 </html>

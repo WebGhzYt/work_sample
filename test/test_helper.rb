@@ -6,6 +6,7 @@ class ActiveSupport::TestCase
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
   fixtures :all
 
+<<<<<<< HEAD
    def is_logged_in?
     !session[:user_id].nil?
   end
@@ -29,3 +30,7 @@ class ActiveSupport::TestCase
       defined?(post_via_redirect)
     end
 end
+=======
+  # Add more helper methods to be used by all tests here...
+end
+>>>>>>> 2b1df0c97c164e7be3fe0c418d10987097c03347

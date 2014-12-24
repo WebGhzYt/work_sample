@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Rails.application.routes.draw do
 
 
@@ -77,3 +78,15 @@ end
   #     resources :products
   #   end
 
+=======
+
+Rails.application.routes.draw do
+  get 'user/new'
+
+  root             'static_pages#home'
+  get 'help'    => 'static_pages#help'
+  get 'aboutus'   => 'static_pages#aboutus'
+  get 'contact' => 'static_pages#contact'
+  get 'signup'  => 'user#new'
+end
+>>>>>>> 2b1df0c97c164e7be3fe0c418d10987097c03347

@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+<<<<<<< HEAD
   attr_accessor :remember_token
   before_save { self.email = email.downcase }
   validates :name,  presence: true, length: { maximum: 50 }
@@ -35,3 +36,7 @@ class User < ActiveRecord::Base
     update_attribute(:remember_digest, nil)
   end
 end
+=======
+	has_secure_password
+end
+>>>>>>> 2b1df0c97c164e7be3fe0c418d10987097c03347

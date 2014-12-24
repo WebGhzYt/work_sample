@@ -1,5 +1,17 @@
+<<<<<<< HEAD
 michael:
   name: Michael Example
   email: michael@example.com
   password_digest: <%= User.digest('password') %>
 
+=======
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  email: MyString
+
+two:
+  name: MyString
+  email: MyString
+>>>>>>> 2b1df0c97c164e7be3fe0c418d10987097c03347
