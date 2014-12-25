@@ -68,3 +68,4 @@ gem 'bcrypt'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :mingw, :jruby]
